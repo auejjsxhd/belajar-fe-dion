@@ -1,0 +1,38 @@
+body {
+  min-height: 2000px;
+  background: rgb(131, 62, 1);
+  background: linear-gradient(170deg, rgba(78, 38, 2, 0.903) 0%, rgba(110, 48, 1, 0.911) 27%, rgb(36, 0, 70) 31%, rgb(75, 18, 125) 100%);
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #9d4edd00;
+  color: #ffff;
+}
+.navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.btn{
+  background-color: #9D4EDD;
+  color: #ffff;
+  border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.navbar-nav a:hover{
+  background-color: #5A189A;
+  border-radius: 10px;
+}
+
+#about{
+  color: #ffff;
+}
+
+#projects{
+  background-color: #9e4edf00;
+  color: #ffff;
+}
