@@ -1,7 +1,9 @@
 body {
   min-height: 2000px;
-  background: rgb(131, 62, 1);
-  background: linear-gradient(170deg, rgba(78, 38, 2, 0.903) 0%, rgba(110, 48, 1, 0.911) 27%, rgb(36, 0, 70) 31%, rgb(75, 18, 125) 100%);
+  font-family: 'Poppins', sans-serif;
+  background: rgb(157,132,27);
+  background: linear-gradient(170deg, rgb(78,55,22) 0%, rgb(23,16,29) 30%, rgb(23,16,29) 70%, rgb(48,35,58) 100%);
+}
 
 .jumbotron {
   padding: 2rem 1rem;
@@ -12,6 +14,7 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 9999
 }
 
 .btn{
@@ -24,8 +27,8 @@ body {
 }
 
 .navbar-nav a:hover{
-  background-color: #5A189A;
-  border-radius: 10px;
+  background-color: #9D4EDD;
+  border-radius: 2rem;
 }
 
 #about{
@@ -35,4 +38,12 @@ body {
 #projects{
   background-color: #9e4edf00;
   color: #ffff;
+}
+
+.logo-kmteti{
+  margin-right: 2rem;
+}
+
+.logo-tetronica{
+  margin-left: 2rem;
 }
